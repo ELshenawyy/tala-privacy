@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>سياسة الخصوصية – طلة</title>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;900&display=swap" rel="stylesheet"/>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --gold:     #D4AF37;
+      --gold-lit: #FFD750;
+      --red:      #8B1A1A;
+      --bg:       #0E0707;
+      --surface:  #1A0C0C;
+      --border:   #2E1A1A;
+      --text:     #E8E0D0;
+      --muted:    #9A8878;
+    }
+
+    body {
+      font-family: 'Cairo', sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      min-height: 100vh;
+      line-height: 1.9;
+    }
+
+    /* ── Header ── */
+    header {
+      background: linear-gradient(160deg, #1C0A0A 0%, #0E0707 60%);
+      border-bottom: 1px solid var(--border);
+      padding: 48px 24px 36px;
+      text-align: center;
+      position: relative;
+      overflow: hidden;
+    }
+    header::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: radial-gradient(ellipse 600px 300px at 50% -60px, rgba(212,175,55,.12), transparent);
+      pointer-events: none;
+    }
+    .logo-ar {
+      font-size: clamp(52px, 10vw, 80px);
+      font-weight: 900;
+      color: var(--gold-lit);
+      letter-spacing: 2px;
+      text-shadow: 0 0 40px rgba(212,175,55,.35);
+      line-height: 1;
+    }
+    .logo-en {
+      font-size: 15px;
+      letter-spacing: 8px;
+      color: var(--gold);
+      margin-top: 6px;
+      font-weight: 600;
+    }
+    .gold-bar {
+      width: 64px; height: 3px;
+      background: var(--gold);
+      margin: 18px auto 0;
+      border-radius: 2px;
+    }
+    .page-title {
+      margin-top: 28px;
+      font-size: clamp(20px, 4vw, 28px);
+      font-weight: 700;
+      color: #fff;
+    }
+    .last-update {
+      margin-top: 8px;
+      font-size: 13px;
+      color: var(--muted);
+    }
+
+    /* ── Content ── */
+    main {
+      max-width: 780px;
+      margin: 0 auto;
+      padding: 48px 24px 80px;
+    }
+
+    .intro-box {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-right: 3px solid var(--gold);
+      border-radius: 10px;
+      padding: 24px 28px;
+      margin-bottom: 40px;
+      font-size: 15px;
+      color: var(--muted);
+    }
+
+    section {
+      margin-bottom: 36px;
+    }
+    h2 {
+      font-size: 18px;
+      font-weight: 700;
+      color: var(--gold-lit);
+      margin-bottom: 12px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+    h2 .num {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 28px; height: 28px;
+      border-radius: 50%;
+      background: var(--red);
+      color: #fff;
+      font-size: 13px;
+      font-weight: 700;
+      flex-shrink: 0;
+    }
+    p {
+      font-size: 15px;
+      color: var(--text);
+      margin-bottom: 10px;
+    }
+    ul {
+      padding-right: 20px;
+      margin-bottom: 10px;
+    }
+    ul li {
+      font-size: 15px;
+      color: var(--text);
+      margin-bottom: 6px;
+      position: relative;
+    }
+    ul li::marker { color: var(--gold); }
+
+    .divider {
+      height: 1px;
+      background: var(--border);
+      margin: 8px 0 28px;
+    }
+
+    /* ── Contact box ── */
+    .contact-box {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 28px;
+      text-align: center;
+      margin-top: 48px;
+    }
+    .contact-box h3 {
+      font-size: 17px;
+      font-weight: 700;
+      color: var(--gold-lit);
+      margin-bottom: 10px;
+    }
+    .contact-box a {
+      color: var(--gold);
+      text-decoration: none;
+      font-weight: 600;
+    }
+    .contact-box a:hover { text-decoration: underline; }
+
+    /* ── Footer ── */
+    footer {
+      border-top: 1px solid var(--border);
+      padding: 24px;
+      text-align: center;
+      font-size: 13px;
+      color: var(--muted);
+    }
+    footer span { color: var(--gold); }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="logo-ar">طلة</div>
+  <div class="logo-en">T A L A</div>
+  <div class="gold-bar"></div>
+  <div class="page-title">سياسة الخصوصية</div>
+  <div class="last-update">آخر تحديث: يونيو 2025</div>
+</header>
+
+<main>
+
+  <div class="intro-box">
+    مرحباً بك في تطبيق <strong>طلة</strong>. نحن نُولي خصوصيتك أهمية قصوى. تُوضح هذه السياسة كيفية جمع معلوماتك واستخدامها وحمايتها عند استخدامك لتطبيقنا.
+  </div>
+
+  <section>
+    <h2><span class="num">1</span> المعلومات التي نجمعها</h2>
+    <div class="divider"></div>
+    <p>عند استخدامك لتطبيق طلة، قد نجمع الأنواع التالية من المعلومات:</p>
+    <ul>
+      <li><strong>معلومات الحساب:</strong> الاسم، البريد الإلكتروني، رقم الهاتف عند التسجيل.</li>
+      <li><strong>معلومات الطلبات:</strong> المنتجات التي تطلبها، العنوان، وتفاصيل التوصيل.</li>
+      <li><strong>بيانات الاستخدام:</strong> الصفحات التي تزورها داخل التطبيق وتفضيلاتك.</li>
+      <li><strong>الجهاز:</strong> نوع الجهاز ونظام التشغيل لأغراض تقنية فقط.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2><span class="num">2</span> كيف نستخدم معلوماتك</h2>
+    <div class="divider"></div>
+    <ul>
+      <li>معالجة طلباتك وإتمام عمليات الشراء.</li>
+      <li>التواصل معك بشأن طلباتك وحالة التوصيل.</li>
+      <li>تحسين تجربتك وتقديم توصيات مخصصة.</li>
+      <li>إرسال إشعارات متعلقة بالطلبات والعروض (يمكنك إلغاؤها).</li>
+      <li>الامتثال للمتطلبات القانونية.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2><span class="num">3</span> مشاركة المعلومات مع أطراف ثالثة</h2>
+    <div class="divider"></div>
+    <p>نحن <strong>لا نبيع</strong> معلوماتك الشخصية لأي طرف ثالث. قد نشارك بعض البيانات مع:</p>
+    <ul>
+      <li>مزودي خدمات التوصيل لإتمام طلباتك.</li>
+      <li>مزودي خدمات الدفع بشكل مشفر وآمن.</li>
+      <li>خدمات Firebase من Google لأغراض قاعدة البيانات والإشعارات.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2><span class="num">4</span> أمان بياناتك</h2>
+    <div class="divider"></div>
+    <p>نستخدم تشفير SSL وأفضل الممارسات الأمنية لحماية بياناتك. يتم تخزين جميع البيانات على خوادم Firebase (Google Cloud) المؤمّنة.</p>
+  </section>
+
+  <section>
+    <h2><span class="num">5</span> حقوقك</h2>
+    <div class="divider"></div>
+    <ul>
+      <li>الاطلاع على البيانات التي نحتفظ بها عنك.</li>
+      <li>طلب تصحيح أو حذف بياناتك في أي وقت.</li>
+      <li>إلغاء الاشتراك في الإشعارات التسويقية.</li>
+      <li>حذف حسابك بالكامل من داخل إعدادات التطبيق.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2><span class="num">6</span> خصوصية الأطفال</h2>
+    <div class="divider"></div>
+    <p>تطبيق طلة غير موجّه للأطفال دون سن 13 عاماً. لا نجمع عن قصد أي بيانات من الأطفال.</p>
+  </section>
+
+  <section>
+    <h2><span class="num">7</span> التغييرات على هذه السياسة</h2>
+    <div class="divider"></div>
+    <p>قد نُحدّث سياسة الخصوصية من وقت لآخر. سنُخطرك بأي تغييرات جوهرية عبر إشعار داخل التطبيق أو البريد الإلكتروني.</p>
+  </section>
+
+  <div class="contact-box">
+    <h3>تواصل معنا</h3>
+    <p>إذا كان لديك أي استفسار حول سياسة الخصوصية، يمكنك التواصل معنا عبر:</p>
+    <p style="margin-top:12px;">
+      البريد الإلكتروني: <a href="mailto:mohammedaltayb352@gmail.com">mohammedaltayb352@gmail.com</a>
+    </p>
+  </div>
+
+</main>
+
+<footer>
+  © 2025 <span>طلة – Tala</span>. جميع الحقوق محفوظة.
+</footer>
+
+</body>
+</html>
